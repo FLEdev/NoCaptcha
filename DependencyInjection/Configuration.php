@@ -19,8 +19,11 @@ class Configuration implements ConfigurationInterface
         $rootNode
             ->addDefaultsIfNotSet()
             ->children()
+                ->scalarNode('wrapper_class')->defaultValue(null)->end()
+                ->scalarNode('field_class')->defaultValue(null)->end()
                 ->scalarNode('key')->defaultValue(null)->end()
                 ->scalarNode('secret')->defaultValue(null)->end()
+                ->scalarNode('validation_mesage')->defaultValue(null)->end()
             ->end();
 
         return $treeBuilder;

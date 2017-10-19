@@ -102,6 +102,8 @@ class NoCaptchaType extends AbstractType
             $view->vars,
             array(
                 'key' => $this->_options['key'],
+                'wrapper_class' => $this->_options['wrapper_class'],
+                'field_class' => $this->_options['field_class'],
             )
         );
         return;

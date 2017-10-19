@@ -1,8 +1,10 @@
 {% block no_captcha_widget %}
+    <div class="{{ wrapper_class }}">
     {% spaceless %}
         {% block javascripts %}
             <script src="https://www.google.com/recaptcha/api.js"></script>
         {% endblock %}
-        <div class="g-recaptcha" data-sitekey="{{ key }} "></div>
+        <div class="g-recaptcha {{ field_class }}" data-sitekey="{{ key }} "></div>
     {% endspaceless %}
+    </div>
 {% endblock %}

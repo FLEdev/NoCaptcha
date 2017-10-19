@@ -67,7 +67,8 @@ class NoCaptchaValidator
         $captchaFlag = $this->matchNoCaptcha($noCapchaResponse);
         if (!$captchaFlag) {
             $form = $event->getForm();
-            $form->addError(new FormError('Validated field - NoCaptcha'));
+            $validationMessage = $this->_translator->trans($this->_options['validation_mesage']);
+            $form->addError(new FormError($validationMessage));
         }
         return $captchaFlag;
     }

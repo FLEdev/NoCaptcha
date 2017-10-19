@@ -2,7 +2,7 @@
   "name": "FLEdev/NoCaptcha",
   "type": "library",
   "description": "NoCaptcha Symfony Bundle",
-  "keywords": ["symfony2", "captcha", "bot", "visual", "code", "security", "spam"],
+  "keywords": ["symfony2", "captcha", "bot", "visual", "code", "security", "spam", "google"],
   "homepage": "https://github.com/FLEdev/NoCaptcha",
   "license": "MIT",
   "authors": [
@@ -14,6 +14,7 @@
   ],
   "require": {
     "php": ">=5.3.9",
+    "symfony/symfony": "^3.3",
     "symfony/form": "~2.8|~3.0",
     "google/recaptcha": "~1.1"
   },
