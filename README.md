@@ -1,8 +1,8 @@
 # NoCaptcha
 
-###NoCaptcha Symfony Bundle
+### NoCaptcha Symfony Bundle
 
-###Installation:
+### Installation:
 $ composer require FLEdev/NoCaptcha
 
 Add to:
@@ -10,7 +10,7 @@ Add to:
   - registerBundles()
     - new FLEdev\NoCaptcha\NoCaptchaBundle()
 
-###Configuration:
+### Configuration:
 
 #### config.yml:
 ``` 
