@@ -3,7 +3,7 @@
 ### NoCaptcha Symfony Bundle
 
 ### Installation:
-$ composer require FLEdev/NoCaptcha
+$ composer require fledev/nocaptcha
 
 Add to:
 - AppKernel.php
