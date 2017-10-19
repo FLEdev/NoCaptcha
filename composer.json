@@ -1,5 +1,5 @@
 {
-  "name": "FLEdev/NoCaptcha",
+  "name": "fledev/nocaptcha",
   "type": "library",
   "description": "NoCaptcha Symfony Bundle",
   "keywords": ["symfony2", "captcha", "bot", "visual", "code", "security", "spam", "google"],
