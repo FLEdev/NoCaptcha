@@ -1,0 +1,13 @@
+parameters:
+    no_captcha.class: FLEdev\NoCaptcha\Form\NoCaptchaType
+
+services:
+    no_captcha:
+        class: '%no_captcha.class%'
+        arguments:
+            - '@session'
+            - '@translator'
+            - '%no_captcha.config%'
+        tags:
+            - { name: form.type, alias: no_captcha }
+        scope: request

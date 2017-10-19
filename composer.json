@@ -1,0 +1,25 @@
+{
+  "name": "FLEdev/NoCaptcha",
+  "type": "library",
+  "description": "NoCaptcha Symfony Bundle",
+  "keywords": ["symfony2", "captcha", "bot", "visual", "code", "security", "spam"],
+  "homepage": "https://github.com/FLEdev/NoCaptcha",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Frantisek Leginsky",
+      "email": "f@leginsky.com",
+      "homepage": "https://www.leginsky.com/"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.9",
+    "symfony/form": "~2.8|~3.0",
+    "google/recaptcha": "~1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "FLEdev\\NoCaptcha\\": "/"
+    }
+  }
+}

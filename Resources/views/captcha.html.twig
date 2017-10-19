@@ -1,0 +1,8 @@
+{% block no_captcha_widget %}
+    {% spaceless %}
+        {% block javascripts %}
+            <script src="https://www.google.com/recaptcha/api.js"></script>
+        {% endblock %}
+        <div class="g-recaptcha" data-sitekey="{{ key }} "></div>
+    {% endspaceless %}
+{% endblock %}
