@@ -5,13 +5,9 @@
 ###Installation:
 $ composer require FLEdev/NoCaptcha
 
-***
-
-Manually from: https://github.com/FLEdev/NoCaptcha
-
-- Add to:
-    - AppKernel.php
-    - registerBundles()
+Add to:
+- AppKernel.php
+  - registerBundles()
     - new FLEdev\NoCaptcha\NoCaptchaBundle()
 
 ###Configuration:
