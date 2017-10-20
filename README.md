@@ -15,14 +15,14 @@ Add to:
 #### config.yml:
 ``` 
 no_captcha:
-    key: '6LfV0zQUAAAAAJ1SSKBHCScJO00HLsEvr75r5N-U'
-    secret: '6LfV0zQUAAAAABi-Zjp7B3ZARksGFtN38wt5UJRQ'
+    key: 'your_google_no-captcha_key'
+    secret: 'your_google_no-captcha_secret'
     validation_mesage: 'Check in if you are Human'
     wrapper_class: no-captcha-wrap
     field_class: no-captcha
 ```
 
-####Usage:
+#### Usage:
 
 - Define: 
 ```
